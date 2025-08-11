@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ClassroomProvider } from './context/ClassroomContext';
 import { ScheduleProvider } from './context/ScheduleContext';
 import Layout from './components/Layout';
