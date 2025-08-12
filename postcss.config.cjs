@@ -1,14 +1,15 @@
 module.exports = {
   plugins: {
-    '@tailwindcss/postcss': {},   // Tailwind v4 PostCSS plugin
-    autoprefixer: {},             // Adds vendor prefixes for old browsers
-    'postcss-preset-env': {       // Converts modern CSS to old syntax
+    tailwindcss: {},
+    autoprefixer: {},
+    'postcss-preset-env': {
       stage: 3,
       features: {
-        'custom-properties': { preserve: false }, // Convert CSS variables
-        'nesting-rules': true
+        'custom-properties': { preserve: false },
+        'nesting-rules': true,
       },
-      browsers: ['last 2 versions', 'ie 11', 'chrome 49', 'samsung 4']
+      browsers: ['last 2 versions', 'chrome 49', 'ie 11']
     }
   }
 }
+
