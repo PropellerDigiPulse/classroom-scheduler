@@ -3,6 +3,7 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
     'postcss-custom-properties': { preserve: false },
+    './postcss-shadow-fallback.cjs': {},
     'postcss-preset-env': {
       stage: 3,
       features: {
